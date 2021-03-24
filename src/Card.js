@@ -40,7 +40,20 @@ const Card = () => {
               <span className='card__bodyHeaderFollow'>FOLLOW</span>
             </div>
           </div>
-          <div className='card__bodyStats'></div>
+          <div className='card__bodyStats'>
+            <div className='card__bodyStatsLeft column'>
+              <h2 className='card__bodyStatsNumber'>313</h2>
+              <h3 className='card__bodyStatsTitle'>PATENTS</h3>
+            </div>
+            <div className='card__bodyStatsCenter column'>
+              <h2 className='card__bodyStatsNumber'>1M 50k</h2>
+              <h3 className='card__bodyStatsTitle'>FOLLOWERS</h3>
+            </div>
+            <div className='card__bodyStatsRight column'>
+              <h2 className='card__bodyStatsNumber'>361</h2>
+              <h3 className='card__bodyStatsTitle'>FOLLOWING</h3>
+            </div>
+          </div>
           <div className='card__bodyCategories'></div>
         </div>
       </div>

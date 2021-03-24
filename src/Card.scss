@@ -87,6 +87,33 @@
           }
         }
       }
+
+      .card__bodyStats {
+        border-top: 1px solid $purple;
+        border-bottom: 1px solid $purple;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: $purple;
+        padding: 11px 0;
+
+        .card__bodyStatsNumber {
+          font-size: 24px;
+          font-weight: 900;
+          line-height: 1;
+        }
+
+        .card__bodyStatsTitle {
+          font-size: 14px;
+          font-weight: 900;
+        }
+
+        .column {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
     }
   }
 }
