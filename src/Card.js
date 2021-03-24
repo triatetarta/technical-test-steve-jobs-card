@@ -54,7 +54,32 @@ const Card = () => {
               <h3 className='card__bodyStatsTitle'>FOLLOWING</h3>
             </div>
           </div>
-          <div className='card__bodyCategories'></div>
+          <div className='card__bodyCategories'>
+            <h4 className='card__bodyCategoriesTitle'>CATEGORIES</h4>
+            <ul className='card__bodyCategoriesList'>
+              <li>
+                Electronic Devices
+                <img
+                  src={process.env.PUBLIC_URL + '/assets/Arrow-2.svg'}
+                  alt='Arrow Right'
+                />
+              </li>
+              <li>
+                Design
+                <img
+                  src={process.env.PUBLIC_URL + '/assets/Arrow-2.svg'}
+                  alt='Arrow Right'
+                />
+              </li>
+              <li>
+                Transportation
+                <img
+                  src={process.env.PUBLIC_URL + '/assets/Arrow-2.svg'}
+                  alt='Arrow Right'
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </article>
