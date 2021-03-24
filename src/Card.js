@@ -58,21 +58,21 @@ const Card = () => {
             <h4 className='card__bodyCategoriesTitle'>CATEGORIES</h4>
             <ul className='card__bodyCategoriesList'>
               <li>
-                Electronic Devices
+                <span>Electronic Devices</span>
                 <img
                   src={process.env.PUBLIC_URL + '/assets/Arrow-2.svg'}
                   alt='Arrow Right'
                 />
               </li>
               <li>
-                Design
+                <span>Design</span>
                 <img
                   src={process.env.PUBLIC_URL + '/assets/Arrow-2.svg'}
                   alt='Arrow Right'
                 />
               </li>
               <li>
-                Transportation
+                <span>Transportation</span>
                 <img
                   src={process.env.PUBLIC_URL + '/assets/Arrow-2.svg'}
                   alt='Arrow Right'

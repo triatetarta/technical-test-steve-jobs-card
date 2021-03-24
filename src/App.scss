@@ -3,7 +3,13 @@
 .section {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: $bodyBg;
+
+  a {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
 }

@@ -30,6 +30,8 @@
 
 9. **Final build is hosted on Netlify**
 
+10. **Walked an extra mile by adding some CSS hover animations**
+
 ## VIEW the final build:
 
 ### View Project:
