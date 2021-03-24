@@ -32,6 +32,12 @@
 
 ## VIEW the final build:
 
+### View Project:
+
+https://technical-test-steve-jobs.netlify.app/
+
+### View Github repo:
+
 https://github.com/triatetarta/technical-test-steve-jobs-card
 
 ## Available Scripts
